@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.messageRight {
+  justify-content: flex-end;
+  margin-left: 35%;
+}
+.messageCenter {
+  align-content: center;
+}
+.messageLeft {
+  justify-content: flex-start;
+  margin-right: 35%;
+}
+.hidden {
+  visibility: hidden;
+}
+.display {
+  visibility: visible;
+}
+.message {
+  font-family: SansSerif;
+  font-size: larger;
+  color: #555555;
+  max-width: 65%;
+  overflow-wrap: normal;
+  text-align: right;
+  padding: .3em;
+  display: flex;
+}
+.chat {
+  width: 80%;
+}
+.enter {
+  width: 5%;
+  height: 2.25em;
+}
+.chattextbox {
+  width: 95%;
+}
+.chat-box {
+  border: 1px solid darkgray;
+  height: 10em;
+  overflow-y: scroll;
+  overflow-wrap: normal;
+}
+.navbar-header {
+  width: 80%;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar-brand {
+  color: #ffffff;
+  font-size: 1em;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+.navigation {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  margin-bottom: 1em;
+  min-height: 50px;
+  text-align: justify;
+  cursor: pointer;
+  border-radius: 0.5em 0.5em 0 0;
+  width: 80%;
+  position: relative;
+}
+.margin-left {
+  margin-left: 0.5em;
+}
+
+.red {
+  color: red;
+}
+.left-addon input  {
+  padding-left:  30px;
+}
+.right-addon input {
+  padding-right: 30px;
+}
+.left-addon .fa {
+  left: 0px;
+}
+.right-addon .fa {
+  right: 0px;
+}
+.inner-addon {
+  position: relative;
+}
+.inner-addon .fa {
+  position: absolute;
+  padding: 10px;
+  margin-left: 15px;
+  pointer-events: none;
+}
+.marginTop10{
+  margin-top: 10em;
+}
+.margin-top {
+  margin-top: 1em;
+}
+.margin-top6 {
+  margin-top: 6em;
+}
+.margin-right {
+  margin-right: 1em;
+}
+.margin-bottom {
+  margin-bottom: 1em;
+}
+.inputHeight{
+  height: 2.35em;
+  vertical-align: bottom;
+  border-radius: 5px;
+}
+.marginLeft{
+  margin-right: -0.5em;
+}
+.rangeDelete {
+  float: left;
+  margin-left: 0.2em;
+}
+.float-right {
+  float: right;
+}
+.right{
+  margin-right: 4em;
+}
+.center {
+  margin: 0 auto;
+}
+.float-center {
+  float: right;
+  position: relative;
+  right: 50%;
+}
+.align-center {
+  text-align: center;
+}
+.align-left {
+  padding-top: 0.5em;
+  text-align: left;
+}
+.container {
+  width: 82%;
+}
+.error {
+  color: red;
+}
+.scroll {
+  height: 58em;
+  margin-top: 1em;
+  overflow: scroll;
+  width: 78%;
+}
+.button {
+  position: absolute;
+  right:    0.5em;
+  bottom:   0.5em;
+}
+.button1 {
+  position: absolute;
+  right:    3em;
+  bottom:   0.5em;
+}
+.button2 {
+  position: absolute;
+  right:    5.5em;
+  bottom:   0.5em;
+}
+.overflow {
+  overflow: scroll;
+}
+input.ng-invalid {
+  background-color: pink;
+}
+input.ng-valid{
+  background-color: lightgreen;
+}
+input.ng-untouched{
+  background-color: lightgreen;
+}
+.btn-width {
+  width: 18em;
+}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*text-align: center;*/
+  color: #2c3e50;
+  margin-top: 60px;
+}
+.margin-left {
+  margin-left: 20%;
+}
+.margin {
+  margin: 0.25em 0 0 0.5em;
+}
