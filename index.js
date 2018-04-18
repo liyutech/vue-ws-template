@@ -26,7 +26,7 @@ io.on('connection', socket => {
         }
     });
     socket.on('disconnected', function () {
-        io.emit('chat',);
+        io.emit('chat');
     });
     socket.on('chat', msg => {
         console.log('Receiving message from ws client: ', msg);

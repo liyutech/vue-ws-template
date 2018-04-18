@@ -1,12 +1,12 @@
 <template>
   <div>
     <navTpl></navTpl>
-    <div class="container jumbo center">
-      <div class="inner-addon left-addon col-lg-6 col-lg-offset-3 margin-top6" v-model="DisplayModel">
+    <div class="margin-left30">
+      <div class="inner-addon left-addon col-lg-6 marginTop10" v-model="DisplayModel">
         <i class="fa fa-user"></i>
-        <input type="text" class="form-control margin-bottom" placeholder="Display Name" required="true" autofocus="true"
+        <input type="text" class="form-control margin-bottom" placeholder="Please enter your name" required="true" autofocus="true"
                name="User" v-model=DisplayModel.name @keyup.enter="login()">
-        <button id="loginButton" class="btn btn-md btn-success float-center" @click="login()">
+        <button id="loginButton" class="btn btn-md btn-success float-center margin-top" @click="login()">
           Enter Chat Room
         </button>
       </div>
@@ -21,9 +21,6 @@
   export default {
     name: 'home',
     components: {navTpl},
-    props: {
-      loginFailed: false
-    },
     data() {
       return {
         DisplayModel: {
